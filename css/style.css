@@ -1,3 +1,48 @@
-body {
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+/* HEADER */
+.header {
+    height: 80px;
+    line-height: 80px;
     background-color: aqua;
+}
+
+#logo-img {
+    height: 60px;
+    vertical-align: middle;
+}
+
+#logo-text {
+    vertical-align: middle;
+}
+
+/* MAIN */
+.number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+ul {
+    list-style: none;
 }
